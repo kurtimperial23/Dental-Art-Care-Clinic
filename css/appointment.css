@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/qanelas");
+form {
+    width: 100%;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 2px 5px;
+}
+
+input[type="radio"] {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 50% !important;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 2px 5px;
+}
+
+.col {
+    padding-top: 5px;
+}
+
+label {
+    color: white;
+    padding-top: 5px;
+}
+.wrapper h4 {
+    color: rgba(252, 182, 64, 1);
+    font-weight: 100px;
+    font-size: 30px;
+    font-family: "Qanelas";
+}
+
+.wrapper {
+    background-color: #313133;
+    border-radius: 20px;
+    margin: 30px;
+}
+.wrapper hr {
+    border: 1px solid #ffa200 !important;
+}
+main {
+    background-image: url("/DACclinic/images/DACC.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

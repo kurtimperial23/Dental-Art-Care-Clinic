@@ -1,0 +1,172 @@
+@import url("https://fonts.cdnfonts.com/css/qanelas");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+
+:root {
+    --color-1: #000000;
+    --color-2: #ffffff;
+}
+
+header h4,
+#dentists h1 {
+    color: #fcb640;
+    font-weight: 100;
+    font-family: "Qanelas";
+    margin: 0;
+}
+
+main p,
+main h1 {
+    color: var(--color-2);
+}
+
+main h1 {
+    font-size: 64px;
+    font-weight: 200;
+    color: #fcb640;
+    letter-spacing: 3px;
+}
+
+main hr {
+    border: none;
+    border: 1px solid #ffa200;
+}
+
+main {
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(22, 20, 21, 1),
+            rgba(22, 20, 21, 0.6) 5%,
+            rgba(22, 20, 21, 0.6) 20%,
+            rgba(22, 20, 21, 0.7) 50%,
+            rgba(22, 20, 21, 0.8) 70%,
+            rgba(22, 20, 21, 0.9) 80%,
+            rgba(22, 20, 21, 1) 95%
+        ),
+        url("/DACclinic/images/bg_main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -13%;
+    filter: sepia(20%) saturate(150%);
+}
+
+main .container:nth-of-type(2) {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+/* start of services  */
+
+#services {
+    background-color: rgb(22, 20, 21);
+    padding-bottom: 100px;
+}
+
+#services h1 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 400;
+}
+#services p {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider img {
+    height: 100%;
+    width: auto;
+    border: 1px solid rgba(217, 217, 217, 0.3);
+}
+
+.slider p {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 95%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+/* start of dentists */
+#dentists {
+    padding: 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.6)), url("/DACclinic/images/bg_dentists.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #161415; */
+}
+#dentists img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border: 1px solid rgba(217, 217, 217, 0.3);
+}
+
+#dentists p {
+    color: var(--color-2);
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+/* start of aboutus */
+#aboutUs {
+    background-color: #161415;
+    padding: 150px 0;
+    margin-bottom: -55px;
+}
+
+#aboutUs h1,
+#aboutUs h3 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 400;
+}
+
+#aboutUs p,
+#aboutUs span {
+    color: white;
+}
+
+.col i {
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+}
+
+.clinic-hours {
+    border: 1px solid rgba(252, 182, 64, 0.8);
+}
+
+/* start of extended banner */
+.extended-banner .bg-banner {
+    padding: 30px 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.extended-banner .row {
+    border-radius: 20px;
+    margin-bottom: -55px;
+}
+.extended-banner h2 {
+    color: rgba(252, 182, 64, 0.8);
+    margin: 0;
+}
+
+.extended-banner a {
+    padding: 0 50px;
+}
+
+.extended-banner .banner:hover {
+    border: white 1px solid;
+}
+
+/* start of footer */
+footer .footer-links {
+    padding-top: 40px;
+}

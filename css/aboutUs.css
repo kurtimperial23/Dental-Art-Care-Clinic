@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/qanelas");
+
+h1 {
+    color: rgba(252, 182, 64, 0.8);
+}
+h2 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 300;
+}
+
+h3 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 200;
+    font-family: "Qanelas";
+}
+
+main p,
+section p {
+    color: white;
+}
+
+main {
+    background-color: #161415;
+    padding-bottom: 100px;
+}
+
+main img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border: 1px solid rgba(217, 217, 217, 0.3);
+    clip-path: circle(40% at 47%);
+}
+
+main span {
+    color: white;
+    font-family: "Qanelas";
+    font-weight: 200;
+}
+
+#history {
+    background-color: #161415;
+}
+
+#history span {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 200;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#history .testimony {
+    background-color: #404040;
+    border-radius: 10px;
+    padding: 34px;
+    text-align: justify;
+}
+#history img {
+    height: 100%;
+    border-radius: 20px;
+    background-position-x: center;
+}
+
+#history .big {
+    height: 80%;
+}
+
+#history .pic-group {
+    padding: 10px;
+}
+
+section i {
+    color: white;
+    font-size: 30px;
+}
+
+section i:hover {
+    color: rgba(252, 182, 64, 0.8);
+}
+
+.img-container {
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-container img {
+    height: 100%;
+    width: auto;
+}

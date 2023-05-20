@@ -1,0 +1,18 @@
+#services {
+    background-color: #161415;
+    padding: 60px 0;
+}
+
+#services h1 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 400;
+}
+
+#services p {
+    color: white;
+}
+
+#services img {
+    height: 100%;
+    min-width: 230px;
+}

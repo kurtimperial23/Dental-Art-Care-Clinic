@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(22, 20, 21, 0.47), rgba(22, 20, 21, 0.4) 5%),
+        url("/DACclinic/images/bg_main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    filter: sepia(20%) saturate(150%);
+}
+
+.col-5 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 30vh;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.cdnfonts.com/css/qanelas");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+main {
+    background-color: #161415;
+    padding: 50px 0;
+}
+
+h3 {
+    color: rgba(252, 182, 64, 0.8);
+    font-weight: 100;
+    font-family: "qanelas";
+}
+
+p {
+    color: white;
+    font-family: "Open Sans";
+}
+
+main .col-3 {
+    margin: 20px 0;
+}
