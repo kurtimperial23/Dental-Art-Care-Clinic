@@ -1,0 +1,253 @@
+@import url("https://fonts.cdnfonts.com/css/qanelas");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+
+:root {
+    --color-1: #000000;
+    --color-2: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Open Sans";
+    font-weight: 200;
+}
+
+h1 {
+    font-family: "Qanelas";
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+header {
+    font-family: "Qanelas", sans-serif;
+    color: var(--color-2);
+    background-color: rgba(22, 20, 21, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header h4 {
+    color: #fcb640;
+    font-weight: 100;
+    font-family: "Qanelas";
+    margin: 0;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-2);
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: #fcb640;
+}
+
+/* nav a:active {
+    text-decoration: underline;
+} */
+nav ul li a.active {
+    color: #fcb640;
+    text-decoration: underline;
+    text-underline-offset: 23px;
+    text-decoration-thickness: 2px;
+}
+table,
+table tr,
+table td {
+    border: none;
+}
+
+/* start of main content  */
+.dropdown {
+    display: none;
+}
+
+.openSidebar img,
+.openSidebar i {
+    display: none;
+}
+
+/* start of footer */
+footer {
+    background-color: #272526;
+    padding: 40px 0 30px 0;
+}
+
+footer img {
+    width: 130px;
+    height: auto;
+}
+
+footer h4 {
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    color: rgba(252, 182, 64, 0.8);
+}
+footer .link {
+    color: white;
+}
+footer .fa-brands {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.copyright {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.copyright p {
+    margin-bottom: 5px;
+}
+
+footer .footer-links {
+    padding-top: 10px;
+}
+
+footer .link {
+    text-decoration: none;
+}
+
+footer .link:hover {
+    color: rgba(252, 182, 64, 0.8);
+}
+
+.bg-top {
+    height: 65vh;
+    background-image: linear-gradient(rgba(22, 20, 21, 0.6), rgba(22, 20, 21, 0.7), rgba(22, 20, 21, 1) 95%),
+        url("/DACclinic/images/bg_main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+    position: relative;
+    filter: sepia(20%) saturate(150%);
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.description h2 {
+    color: #fcb640;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: "Qanelas";
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.description p {
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    /* start of nav*/
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .openSidebar {
+        position: fixed;
+        display: block;
+        background-color: var(--color-main);
+        z-index: 11;
+        padding: 10px;
+        width: 100%;
+        top: 0;
+    }
+
+    .openSidebar img {
+        width: 40px;
+        display: inline;
+        padding: -10;
+    }
+
+    .openSidebar i {
+        font-size: 25px;
+        display: contents;
+    }
+
+    .logo {
+        padding: 10px 20px;
+    }
+    header .container {
+        display: block;
+    }
+    header {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    header a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    header a:hover {
+        color: #f1f1f1;
+    }
+}
